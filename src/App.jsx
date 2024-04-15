@@ -1,6 +1,7 @@
 import './App.css'
 import { WapperList } from './components/WrapperList';
-import { List } from './components/List'
+import { List } from './components/List';
+
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
      <WapperList>
       <List/>
       </WapperList>
+      
     </>
   );
 }
